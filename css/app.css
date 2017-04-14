@@ -21,19 +21,42 @@ body {
 	position: absolute;
 	height: 100%;
 	width: 100%;
+
 }
 
 .container .header, .container .skills_experiencie, .container .footer {
-	display: flex;
+		display: flex;
 }
 
 .skills_experiencie .skills, .skills_experiencie .experiencie {
-	height: 400px;
+	height: 450px;
 	width: 100%;
 	border: 1px solid gray;
 }
 
 .container .header {
+	justify-content: space-between;
+	padding: 15px 30px;
+}
+
+.container .header .contact {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container .header .contact .socials {
+	margin-right: 2em;
+}
+
+.container .header .contact .email {
+	display: flex;
+	flex-direction: column;
+}
+
+.container .header .contact .email span:first-child {
+	margin-bottom: 1em;
 }
 
 .container .skills_experiencie {
