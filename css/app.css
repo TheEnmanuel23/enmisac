@@ -21,11 +21,10 @@ body {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-
 }
 
 .container .header, .container .skills_experiencie, .container .footer {
-		display: flex;
+	display: flex;
 }
 
 .skills_experiencie .skills, .skills_experiencie .experiencie {
@@ -37,6 +36,29 @@ body {
 .container .header {
 	justify-content: space-between;
 	padding: 15px 30px;
+}
+
+.container .header .info {
+	display: flex;
+	flex-direction: row;
+}
+
+.container .header .info .avatar {
+	height: 100px;
+	width: 100px;
+	background-color: gray;
+	margin-right: 1em;
+} 
+
+.container .header .info h1 {
+	margin: 0;
+}
+
+.container .header .info p {
+	margin-top: 5px;
+	font-size: 15px;
+    color: #bdbdbd;
+    font-style: italic;
 }
 
 .container .header .contact {
