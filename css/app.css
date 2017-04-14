@@ -67,6 +67,7 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+    margin-right: 3em;
 }
 
 .container .header .contact .socials {
