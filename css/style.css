@@ -311,8 +311,8 @@ Main Components
 }
 @media only screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h2 {
-    font-size: 3em;
-	color: white;
+    font-size: 2em;
+	  color: white;
   }
   .cd-horizontal-timeline .events-content em {
     font-size: 2rem;

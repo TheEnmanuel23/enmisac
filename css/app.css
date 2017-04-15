@@ -89,7 +89,12 @@ body {
 }
 
 .container .footer {
+    display: flex;
 	justify-content: center;
-		font-size: 15px;
+	font-size: 15px;
     color: #c1c1c1;
+}
+
+.container .footer p{
+	margin-right: 1em;
 }

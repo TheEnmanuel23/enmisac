@@ -1,3 +1,31 @@
+var options = {
+		responsive: true,
+		title: {
+			text: 'Skills',
+			display: true,
+			fontSize: 20,
+			fontColor: '#fff',
+			position: 'top',
+			display: false
+		},
+		legend: {
+			display: false
+		},
+	scale: {
+		gridLines: {
+			color: '#fff',
+			offsetGridLines: true
+		},
+		ticks: {
+			display: false,
+			beginAtZero: true,
+			stepSize: 30
+		},
+		angleLines: {
+			color: '#fff'
+		}
+	}    
+}
 var data = {
     labels: ["Python", "Django", "Javascript", "NodeJs", "HTML", "CSS", "C#"],
     datasets: [
@@ -19,32 +47,5 @@ var ctx = document.getElementById('skillsChart');
 var myRadarChart = new Chart(ctx, {
     type: 'radar',
     data: data,
-    options: {
-		 responsive: true,
-		 title: {
-			 text: 'Skills',
-			 display: true,
-			 fontSize: 20,
-			 fontColor: '#fff',
-			 position: 'top',
-			 display: false
-		 },
-		 legend: {
-			 display: false
-		 },
-		scale: {
-			gridLines: {
-				color: '#fff',
-				offsetGridLines: true
-			},
-			ticks: {
-				display: false,
-				beginAtZero: true,
-				stepSize: 30
-			},
-			angleLines: {
-				color: '#fff'
-			}
-		}
-    }
+    options: options
 });
