@@ -35,7 +35,7 @@ body {
 
 .container .header {
 	justify-content: space-between;
-	padding: 15px 30px;	
+	padding: 20px 35px;	
     color: white;
 }
 
@@ -81,7 +81,7 @@ body {
 }
 
 .container .header .contact .email span:first-child {
-	margin-bottom: 1em;
+	margin-bottom: 0.4em;
 }
 
 .container .skills_experiencie {
