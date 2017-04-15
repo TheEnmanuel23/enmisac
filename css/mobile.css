@@ -32,6 +32,7 @@ body {
 	justify-content: space-between;
 	padding: 10px 10px;	
     color: white;
+	margin-top: 15px;
 }
 
 .container .header .info {
@@ -51,6 +52,7 @@ body {
 	margin: 0;
 	font-size: 2em;
     text-align: center;
+	margin-top: 10px;
 }
 
 .container .header .info p {
