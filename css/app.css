@@ -93,9 +93,17 @@ body {
 }
 
 .container .footer {
+	display: flex;
 	justify-content: center;
+	align-items: center;
 	font-size: 15px;
     color: #c1c1c1;
+	padding: 1em;
+}
+
+.container .footer p{
+	text-align: center;
+	margin-bottom: 1em;
 }
 
 #chartdiv {
