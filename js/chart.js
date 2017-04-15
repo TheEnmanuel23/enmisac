@@ -1,47 +1,40 @@
-AmCharts.makeChart("chartdiv",
-				{
-					"type": "radar",
-					"categoryField": "tec",
-					"startDuration": 2,
-					"graphs": [
-						{
-							"balloonText": "[[value]] %",
-							"bullet": "round",
-							"id": "AmGraph-1",
-							"valueField": "litres"
-						}
-					],
-					"guides": [],
-					"valueAxes": [
-						{
-							"axisTitleOffset": 20,
-							"gridType": "circles",
-							"id": "ValueAxis-1",
-							"minimum": 0,
-							"axisAlpha": 0.15,
-							"dashLength": 3
-						}
-					],
-					"allLabels": [],
-					"balloon": {},
-					"titles": [],
-					"dataProvider": [
-						{
-							"tec": "Czech Republic",
-							"litres": 156.9
-						},
-						{
-							"tec": "Ireland",
-							"litres": 131.1
-						},
-						{
-							"tec": "javascript",
-							"litres": 115.8
-						},
-						{
-							"tec": "python",
-							"litres": 109.9
-						}
-					]
-				}
-			);
+var data = {
+    labels: ["Python", "Django", "Javascript", "NodeJs", "HTML", "CSS", "C#"],
+    datasets: [
+        {
+            label: "Skill",
+            backgroundColor: "#3bb3f1",
+            borderColor: "#298dbf",
+            pointBackgroundColor: "#298dbf",
+            pointBorderColor: "#fff",
+            pointHoverBackgroundColor: "#fff",
+            pointHoverBorderColor: "#298dbf",
+            data: [60, 65, 60, 55, 80, 40, 75]
+        }
+    ]
+};
+
+var ctx = document.getElementById('radarChart');
+
+var myRadarChart = new Chart(ctx, {
+    type: 'radar',
+    data: data,
+    options: {
+		 responsive: true,
+		 title: {
+			 text: 'Skills',
+			 display: true,
+			 fontSize: 20,
+			 fontColor: '#fff'
+		 },
+		 legend: {
+			 display: false
+		 },
+		scale: {
+			gridLines: {
+				color: '#fff',
+				borderDash: 122
+			}
+		}
+    }
+});
