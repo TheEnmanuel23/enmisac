@@ -14,7 +14,7 @@ var data = {
     ]
 };
 
-var ctx = document.getElementById('radarChart');
+var ctx = document.getElementById('skillsChart');
 
 var myRadarChart = new Chart(ctx, {
     type: 'radar',
@@ -25,7 +25,8 @@ var myRadarChart = new Chart(ctx, {
 			 text: 'Skills',
 			 display: true,
 			 fontSize: 20,
-			 fontColor: '#fff'
+			 fontColor: '#fff',
+			 position: 'left'
 		 },
 		 legend: {
 			 display: false
@@ -39,6 +40,9 @@ var myRadarChart = new Chart(ctx, {
 				display: false,
 				beginAtZero: true,
 				stepSize: 30
+			},
+			angleLines: {
+				color: '#fff'
 			}
 		}
     }
