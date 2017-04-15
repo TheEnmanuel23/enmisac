@@ -3,8 +3,8 @@ var data = {
     datasets: [
         {
             label: "Skill",
-            backgroundColor: "#3bb3f1",
-            borderColor: "#298dbf",
+            backgroundColor: "rgba(59,179,241,0.9)",
+            borderColor: "#10587d",
             pointBackgroundColor: "#298dbf",
             pointBorderColor: "#fff",
             pointHoverBackgroundColor: "#fff",
@@ -33,7 +33,12 @@ var myRadarChart = new Chart(ctx, {
 		scale: {
 			gridLines: {
 				color: '#fff',
-				borderDash: 122
+				offsetGridLines: true
+			},
+			ticks: {
+				display: false,
+				beginAtZero: true,
+				stepSize: 30
 			}
 		}
     }

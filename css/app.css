@@ -30,7 +30,7 @@ body {
 .skills_experiencie .skills, .skills_experiencie .experiencie {
 	height: 450px;
 	width: 100%;
-	border: 1px solid gray;
+	/*border: 1px solid gray;*/
 }
 
 .container .header {
