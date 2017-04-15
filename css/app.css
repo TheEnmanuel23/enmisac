@@ -25,23 +25,24 @@ body {
 
 .container .header, .container .skills_experiencie, .container .footer {
 	display: flex;
+	flex-direction: column;
 }
 
 .skills_experiencie .skills, .skills_experiencie .experiencie {
 	height: 450px;
 	width: 100%;
-	/*border: 1px solid gray;*/
 }
 
 .container .header {
 	justify-content: space-between;
-	padding: 20px 35px;	
+	padding: 10px 10px;	
     color: white;
 }
 
 .container .header .info {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	align-items: center;
 }
 
 .container .header .info .avatar {
@@ -54,6 +55,7 @@ body {
 .container .header .info h1 {
 	margin: 0;
 	font-size: 2em;
+    text-align: center;
 }
 
 .container .header .info p {
@@ -61,18 +63,14 @@ body {
 	font-size: 15px;
     color: #bdbdbd;
     font-style: italic;
+    text-align: center;
 }
 
 .container .header .contact {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	flex-direction: column;
 	align-items: center;
-    margin-right: 3em;
-}
-
-.container .header .contact .socials {
-	margin-right: 2em;
+	margin-top: 2em;
 }
 
 .container .header .contact .email {
