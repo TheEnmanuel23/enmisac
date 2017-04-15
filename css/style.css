@@ -14,7 +14,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Fira Sans", sans-serif;
-  color: #383838;
+  color: white;
   background-color: #f8f8f8;
 }
 
@@ -305,7 +305,7 @@ Main Components
 }
 .cd-horizontal-timeline .events-content p {
   font-size: 1.4rem;
-  color: #959595;
+  color: #bdbdbd;
 }
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
   line-height: 1.6;

@@ -26,7 +26,8 @@ var myRadarChart = new Chart(ctx, {
 			 display: true,
 			 fontSize: 20,
 			 fontColor: '#fff',
-			 position: 'left'
+			 position: 'top',
+			 display: false
 		 },
 		 legend: {
 			 display: false
