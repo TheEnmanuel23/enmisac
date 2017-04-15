@@ -35,7 +35,8 @@ body {
 
 .container .header {
 	justify-content: space-between;
-	padding: 15px 30px;
+	padding: 15px 30px;	
+    color: white;
 }
 
 .container .header .info {
@@ -52,6 +53,7 @@ body {
 
 .container .header .info h1 {
 	margin: 0;
+	font-size: 2em;
 }
 
 .container .header .info p {
