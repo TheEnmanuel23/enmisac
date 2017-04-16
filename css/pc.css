@@ -72,6 +72,27 @@ body {
 
 .container .header .contact .socials {
 	margin-right: 2em;
+	background-color: white;
+}
+
+.container .header .contact .socials a{
+	font-size: 1.8em;
+}
+
+.container .header .contact .socials .fa-facebook-official{
+	color: #4267b2;
+}
+
+.container .header .contact .socials .fa-twitter{
+	color: #1da1f2;
+}
+
+.container .header .contact .socials .fa-linkedin-square{
+	color: #0077B5;
+}
+
+.container .header .contact .socials .fa-github{
+	color: #24292e;
 }
 
 .container .header .contact .email {
