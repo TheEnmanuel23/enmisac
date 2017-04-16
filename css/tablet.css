@@ -85,6 +85,10 @@ body {
 	flex-direction: row;
 }
 
+.container .skills_experiencie .experiencie .cd-horizontal-timeline{
+	margin: 0;
+}
+
 .container .skills_experiencie .skills {
 	display: flex;
 	justify-content: center;
