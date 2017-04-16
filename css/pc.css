@@ -73,6 +73,8 @@ body {
 .container .header .contact .socials {
 	margin-right: 2em;
 	background-color: white;
+	border-radius: 5px;
+	padding: 0.3em  0.6em;
 }
 
 .container .header .contact .socials a{
@@ -81,14 +83,17 @@ body {
 
 .container .header .contact .socials .fa-facebook-official{
 	color: #4267b2;
+	margin-right:  5px;
 }
 
 .container .header .contact .socials .fa-twitter{
 	color: #1da1f2;
+	margin-right: 5px;
 }
 
 .container .header .contact .socials .fa-linkedin-square{
 	color: #0077B5;
+	margin-right:  5px;
 }
 
 .container .header .contact .socials .fa-github{
