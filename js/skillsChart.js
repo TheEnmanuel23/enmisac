@@ -19,12 +19,16 @@ var options = {
 		ticks: {
 			display: false,
 			beginAtZero: true,
-			stepSize: 30
+			stepSize: 30,
+			fontColor: "red"
 		},
 		angleLines: {
 			color: '#fff'
+		},
+		pointLabels: {
+			fontColor: 'white'
 		}
-	}    
+	}
 }
 var data = {
     labels: ["Python", "Django", "Javascript", "NodeJs", "HTML", "CSS", "C#"],
