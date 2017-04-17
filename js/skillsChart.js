@@ -42,7 +42,7 @@ var data = {
             pointBorderColor: "#fff",
             pointHoverBackgroundColor: "#fff",
             pointHoverBorderColor: "#298dbf",
-            data: [60, 65, 60, 55, 80, 40, 75]
+            data: [60, 65, 60, 55, 65, 50, 70]
         }
     ]
 };
