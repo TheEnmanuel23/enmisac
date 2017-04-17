@@ -162,8 +162,24 @@ body {
 	font-size: 15px;
     color: #c1c1c1;
 	padding: 1em;
+	align-items: center;
 }
 
 .container .footer p{
 	margin-right: 1em;
+}
+.container .footer span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em;
+    background-color: black;
+    letter-spacing: .5px;
+    border: 1px solid white;
+}
+
+.container .footer span a {
+	text-decoration: none;
+	color: white;
+	spa
 }
