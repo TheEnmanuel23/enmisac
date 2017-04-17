@@ -23,6 +23,37 @@ body {
 	width: 100%;
 }
 
+
+.container .header .contact .socials {
+	margin-right: 2em;
+	background-color: white;
+	border-radius: 5px;
+	padding: 0.3em  0.6em;
+}
+
+.container .header .contact .socials a{
+	font-size: 1.8em;
+}
+
+.container .header .contact .socials .fa-facebook-official {
+	color: #4267b2;
+	margin-right:  5px;
+}
+
+.container .header .contact .socials .fa-twitter {
+	color: #1da1f2;
+	margin-right: 5px;
+}
+
+.container .header .contact .socials .fa-linkedin-square {
+	color: #0077B5;
+	margin-right:  5px;
+}
+
+.container .header .contact .socials .fa-github {
+	color: #24292e;
+}
+
 .container .header, .container .skills_experiencie {
 	display: flex;
 	flex-direction: column;
@@ -76,8 +107,36 @@ body {
 	margin-left: 2em;
 }
 
-.container .header .contact .email span:first-child {
-	margin-bottom: 0.4em;
+
+.container .header .contact .email .email_description .icon, .container .header .contact .email .celNum .icon {
+	border-radius: 50%;
+	padding: 10px;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+	color: white;
+	margin-right: 5px;
+}
+
+.container .header .contact .email .email_description, .container .header .contact .email .celNum  {
+	display: flex;
+	align-items: center;
+}
+
+.container .header .contact .email .email_description {
+	margin-bottom: .3em;
+}
+
+.container .header .contact .email .email_description .icon {	
+	background-color:  #d82b45;
+	font-size: 1em;
+}
+
+.container .header .contact .email .celNum .icon {
+	background-color:  #48cfad;
+	font-size: 1.5em;
 }
 
 .container .skills_experiencie {
