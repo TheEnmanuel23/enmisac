@@ -105,25 +105,36 @@ body {
 	flex-direction: column;
 }
 
-.container .header .contact .email .fa-stack {
-		border-radius: 50%;
+.container .header .contact .email .email_description .icon, .container .header .contact .email .celNum .icon{
+	border-radius: 50%;
 	padding: 10px;
-	width: 10px;
-}
-.container .header .contact .email .email_description, .container .header .contact .email .celNum {
-
+	width: 35px;
+	height: 35px;
 }
 
-.container .header .contact .email .fa-envelope, .container .header .contact .email .fa-mobile{
-	color: white;
+.container .header .contact .email .email_description .icon, .container .header .contact .email .celNum .icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container .header .contact .email .email_description .icon {	
+	background-color:  #d82b45;
+		color: white;
+	font-size: 1em;
+}
+
+.container .header .contact .email .celNum .icon {
+	background-color:  #48cfad;
+		color: white;
+	font-size: 1.5em;
 }
 
 .container .header .contact .email .fa-envelope{
-	background-color:  #d82b45;
 }
 
 .container .header .contact .email .fa-mobile{
-	background-color:  #48cfad;
+
 }
 
 .container .skills_experiencie {
