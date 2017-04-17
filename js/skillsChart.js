@@ -26,7 +26,8 @@ var options = {
 			color: '#fff'
 		},
 		pointLabels: {
-			fontColor: 'white'
+			fontColor: 'white',
+			fontSize: 12
 		}
 	}
 }
